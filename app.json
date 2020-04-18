@@ -1,0 +1,60 @@
+{
+  "id": "com.triggercmd",
+  "version": "0.9.1",
+  "compatibility": ">=1.5.0",
+  "sdk": 2,
+  "brandColor": "#006885",
+  "name": {
+    "en": "TRIGGERcmd"
+  },
+  "description": {
+    "en": "Run commands on your computers"
+  },
+  "category": [
+    "tools"
+  ],
+  "permissions": [],
+  "images": {
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
+  },
+  "author": {
+    "name": "Edwin Woudt",
+    "email": "edwin@woudt.nl"
+  },
+  "contributing": {
+    "donate": {
+      "paypal": {
+        "username": "edwinwoudt"
+      }
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/woudt/com.triggercmd/issues"
+  },
+  "source": "https://github.com/woudt/com.triggercmd",
+  "homepage": "https://www.triggercmd.com",
+  "support": "mailto:edwin-homeysupport@woudt.nl",
+  "flow": {
+    "actions": [
+      {
+        "id": "run-command",
+        "title": {
+          "en": "Run command"
+        },
+        "hint": {
+          "en": "Runs a TRIGGERcmd command on your computer"
+        },
+        "args": [
+          {
+            "type": "autocomplete",
+            "name": "command",
+            "placeholder": {
+              "en": "Select command..."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "run-command",
+  "title": {
+    "en": "Run command"
+  },
+  "hint": {
+    "en": "Runs a TRIGGERcmd command on your computer"
+  },
+  "args": [
+    {
+      "type": "autocomplete",
+      "name": "command",
+      "placeholder": {
+        "en": "Select command..."
+      }
+    }
+  ]
+}
