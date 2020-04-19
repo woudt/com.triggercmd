@@ -4,5 +4,8 @@
   },
   "0.9.1": {
     "en": "Initial beta release"
+  },
+  "0.9.2": {
+    "en": "Switch to a different API that is more stable with regard to command changes"
   }
 }

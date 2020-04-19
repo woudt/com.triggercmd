@@ -15,7 +15,7 @@ class TriggerCmdApp extends Homey.App {
 				this.log(body);
 				const token = Homey.ManagerSettings.get('token');
 				const response = await fetch(
-					"https://www.triggercmd.com/api/run/triggerById", {
+					"https://www.triggercmd.com/api/smartthings/triggerBase64", {
 					method: "POST",	
 					headers: {
 						"Authorization": "Bearer " + token,
@@ -37,7 +37,7 @@ class TriggerCmdApp extends Homey.App {
 			try {
 				const token = Homey.ManagerSettings.get('token');
 				const response = await fetch(
-					"https://www.triggercmd.com/api/command/commandlist", {
+					"https://www.triggercmd.com/api/smartthings/commandlist", {
 					headers: {
 						"Authorization": "Bearer " + token
 					}
