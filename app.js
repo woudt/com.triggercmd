@@ -11,7 +11,7 @@ class TriggerCmdApp extends Homey.App {
 		let myAction = new Homey.FlowCardAction('run-command');
 		myAction.register().registerRunListener(async ( args, state ) => {
 			try {
-				const body = "trigger=" + args.command.did;
+				const body = "trigger=" + args.command.did + "&caller=homey";
 				this.log(body);
 				const token = Homey.ManagerSettings.get('token');
 				const response = await fetch(
