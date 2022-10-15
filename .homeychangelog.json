@@ -11,7 +11,7 @@
   "1.0.0": {
     "en": "Runs from homey now show up as such in the TRIGGERcmd web interface. Now out of beta: 1.0.0 release."
   },
-  "1.0.1": {
+  "1.0.2": {
     "en": "Update to SDKv3 so it works with the new Homey Pro (Early 2023)"
   }
 }

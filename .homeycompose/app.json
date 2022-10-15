@@ -1,39 +1,39 @@
 {
-    "id": "com.triggercmd",
-    "version": "1.0.1",
-    "compatibility": ">=5.0.0",
-    "sdk": 3,
-    "brandColor": "#006885",
-    "name": {
-      "en": "TRIGGERcmd"
-    },
-    "description": {
-      "en": "Run commands on your computers"
-    },
-    "category": [
-      "tools"
-    ],
-    "permissions": [],
-    "images": {
-      "large": "/assets/images/large.png",
-      "small": "/assets/images/small.png"
-    },
-    "author": {
-      "name": "Edwin Woudt",
-      "email": "edwin@woudt.nl"
-    },
-    "contributing": {
-      "donate": {
-        "paypal": {
-          "username": "edwinwoudt"
-        }
+  "id": "com.triggercmd",
+  "version": "1.0.2",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "brandColor": "#006885",
+  "name": {
+    "en": "TRIGGERcmd"
+  },
+  "description": {
+    "en": "Run commands on your computers"
+  },
+  "category": [
+    "tools"
+  ],
+  "permissions": [],
+  "images": {
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
+  },
+  "author": {
+    "name": "Edwin Woudt",
+    "email": "edwin@woudt.nl"
+  },
+  "contributing": {
+    "donate": {
+      "paypal": {
+        "username": "edwinwoudt"
       }
-    },
-    "bugs": {
-      "url": "https://github.com/woudt/com.triggercmd/issues"
-    },
-    "homeyCommunityTopicId": 28699,
-    "source": "https://github.com/woudt/com.triggercmd",
-    "homepage": "https://www.triggercmd.com",
-    "support": "mailto:edwin-homeysupport@woudt.nl"
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/woudt/com.triggercmd/issues"
+  },
+  "homeyCommunityTopicId": 28699,
+  "source": "https://github.com/woudt/com.triggercmd",
+  "homepage": "https://www.triggercmd.com",
+  "support": "mailto:edwin-homeysupport@woudt.nl"
 }
