@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+	    <script type="text/javascript" src="/homey.js" data-origin="settings"></script>
+    </head>
+    <body>
+        <h1>TRIGGERcmd settings</h1>
+        <p>Copy the token from the TRIGGERcmd instructions page below.</p>
+
+        <fieldset>
+            <div class="field row">
+                <label for="token">Enter token:</label>
+                <input id="token" type="text" value="" />
+            </div>
+        </fieldset>
+
+        <button id="save" class="right">Save changes</button>
+
+        <script type="text/javascript">
+
+            function onHomeyReady( Homey ){
+
+                Homey.ready();
+
+                var tokenElement = document.getElementById('token');
+                var saveElement = document.getElementById('save');
+
+                Homey.get('token', function( err, token ) {
+                if( err ) return Homey.alert( err );
+                tokenElement.value = token;
+                });
+
+                saveElement.addEventListener('click', function(e) {
+                    Homey.set('token', tokenElement.value, function( err ){
+                        if( err ) return Homey.alert( err );
+                    });
+                });
+            }
+        </script>
+
+    </body>
+</html>
